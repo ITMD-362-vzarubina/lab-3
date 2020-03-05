@@ -193,20 +193,55 @@ img, audio, video {
 
 html {
   font-family: 'Merriweather', Times, serif;
-  font-size: 1.375em; /* 22px */
-  line-height: 1.375em;
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 0.8em;
+  line-height: 1.182em;
+  padding: 1em;
   text-rendering: optimizeLegibility;
+  padding-top: 2.75em;
+  background-color: #b6b6b9;
 }
+h1{
+  color: #b6b6b9;
+  text-shadow: 5px 5px 5px #34343C;
+  font-size: 1.75em; /* 22px */
+  line-height: 1.375em;
+}
+form{
+  padding-bottom:1.182em;
+  padding-top: 1em;
+  background-color: #53535b;
+  border: 5px ridge #34343C;
 
+}
 label {
   display: block;
+  line-height: inherit;
 }
 #content{
   text-align: center;
 }
-/* ===== LAYOUT STYLES ====== */
 
-/* ===== MODULAR STYLES ===== */
-
-/* ===== STATE STYLES ======= */
+input{
+  background-color: #b6b6b9;
+  color: #53535b;
+}
+p,
+label{
+  color: #8e8e93;
+  font-size: 1.182em;
+  line-height: 1.375em;
+}
+input,
+label {
+  float: none; /* if you had floats before? otherwise inline-block will behave differently */
+  display: inline-block;
+  vertical-align: middle;
+}
+#submit{
+  font-family: 'Merriweather', Times, serif;
+  background-color: e9e9e9;
+  font-size: 1.375em;
+  line-height: 1.375em;
+  border-style: outset;
+  border-color: #b6b6b9;
+}
