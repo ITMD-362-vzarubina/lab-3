@@ -245,3 +245,25 @@ label {
   border-style: outset;
   border-color: #b6b6b9;
 }
+
+@media screen and (min-width: 480px) {
+  h1{
+    font-size: 1.75em;
+    line-height: 1.375em;
+  }
+  p, label{
+    font-size: 1.375em;
+    line-height: 1.375em;
+  }
+  #input-age-verification{
+    padding-bottom: 1em;
+  }
+  #submit{
+    font-family: 'Merriweather', Times, serif;
+    background-color: e9e9e9;
+    font-size: 1.75em;
+    line-height: 1.375em;
+    border-style: outset;
+    border-color: #b6b6b9;
+  }
+}
